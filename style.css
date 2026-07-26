@@ -1,0 +1,139 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #84fab0, #8fd3f4);
+}
+
+h1
+{
+    margin-top: 20px;
+    margin-bottom: 25px; 
+    color:rgb(0, 124, 89);
+    font-family: 'Fredoka', sans-serif;
+}
+
+main
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+    min-width: 540px;
+    max-width: 50%;
+    margin: auto;
+    padding: 2em;
+}
+
+#search
+{
+    border-radius: 5px;
+    border: 2px solid #00b894; 
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 184, 148, 0.4);
+    border: 1px solid rgb(6, 137, 137);
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    height: 42px
+}
+
+#submit {
+    background-color: #00b894;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#submit:hover {
+    background-color: #019875;
+    transform: scale(1.05);
+}
+
+#submit:active {
+    transform: scale(0.95);
+}
+
+#weather-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: space-between;
+}
+
+#weather-search
+{
+    display: flex;
+    width: 50%;
+    gap: 10px;
+}
+
+#weather-data{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.weather-card{
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(10px);
+    color: rgb(5, 0, 0);
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    animation: fadeIn 0.6s ease;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.weather-card h1{
+    font-size: 55px;
+    margin: 10px 0;
+}
+
+.weather-card h2{
+    margin-bottom: 10px;
+}
+
+.weather-card h3{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.weather-card p{
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.weather-icon{
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
