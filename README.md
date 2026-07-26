@@ -1,5 +1,7 @@
 # 🌤️ Weather App
 
+### Author : Aishwarya ♡
+---
 A clean, glassmorphic weather app built with vanilla HTML, CSS, and JavaScript. Search any city and get real-time weather conditions, temperature, humidity, and wind speed — pulled live from the OpenWeather API.
 
 ![Weather App Screenshot](Screenshorts/page-1.png)
@@ -44,9 +46,8 @@ A clean, glassmorphic weather app built with vanilla HTML, CSS, and JavaScript. 
    const apiKey = "YOUR_OPENWEATHER_APIKEY";
 ```
 
-4. Open `index.html` in your browser — that's it, no build step or dependencies needed.
-
-> **Note:** This is a static frontend-only project, so the API key is visible in `config_api.js`. For a learning/portfolio project this is fine since it uses a free, rate-limited OpenWeather key — but in a production app, API keys should always be handled server-side.    
+4. Open `index.html` in your browser.
+   
 
 ## What I Learned
 
@@ -65,7 +66,3 @@ A clean, glassmorphic weather app built with vanilla HTML, CSS, and JavaScript. 
 - Dark mode
 
 
-
----
-
-Built by [Aishwarya](https://github.com/aishwarya25-dev) as a frontend practice project.
